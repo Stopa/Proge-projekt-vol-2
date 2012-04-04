@@ -2,14 +2,10 @@ package logic;
 
 public class Planet extends SpaceObject {
 	// instance variables
-	
-	// constructors
-	public Planet(PlanetTemplate template) {
-		
-	}
-	
-	// static methods
-	public static PlanetTemplate getInstance() {
-		return new PlanetTemplate();
-	}
+	private boolean volcanicActivity;
+	private boolean life;
+	private boolean intelligentLife; // ma natuke ebakidnel nendes elu/asutust näitavates asjades
+	private Faction ownedBy;
+	private int coordX;
+	private int coordY;
 }
